@@ -4,7 +4,7 @@ git.useGitDescribe := true
 
 organization := "com.gilt.sbt"
 
-crossSbtVersions := Vector("0.13.16", "1.0.1")
+crossSbtVersions := Vector("0.13.15", "1.0.1")
 
 name := "sbt-aspectjweaver"
 
