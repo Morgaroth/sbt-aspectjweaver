@@ -13,7 +13,7 @@ scalacOptions ++= List(
   "-encoding", "UTF-8"
 )
 
-version := "0.2.0"
+version := "0.2.1"
 
 addSbtPlugin("com.typesafe.sbt" % "sbt-native-packager" % "1.3.0" % "provided")
 
