@@ -18,7 +18,7 @@ object AspectJWeaver extends AutoPlugin with CrossDependencyFilter {
 
   import autoImport._
 
-  val AjConfig = config("Aspectjweaver-agent").hide
+  val AjConfig = config(configName).hide
 
   override def projectSettings = Seq(
     ivyConfigurations += AjConfig,
